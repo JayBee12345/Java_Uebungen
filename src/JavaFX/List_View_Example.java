@@ -29,7 +29,7 @@ public class List_View_Example extends Application {
     @Override
     public void start(Stage primaryStage) {
 
-        final String[] namen = new String[]{"Sarah", "Elias", "Lila", "Jan","Saskia","Hubert","Heinz","Elb","Sandra","Eva","Julia"};
+        final String[] namen = new String[]{"Sarah", "Elias", "Lila", "Jan","Saskia","Hubert","Heinz","Herbert","Elb","Sandra","Eva","Julia"};
         final ObservableList<String> eintraege = FXCollections.observableArrayList(namen);
         final FilteredList<String>filteredList = new FilteredList<>(eintraege);
         final ListView<String> listView = new ListView<>(filteredList);
