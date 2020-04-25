@@ -85,5 +85,6 @@ public class List_View_Example extends Application {
         primaryStage.setTitle(this.getClass().getSimpleName());
         primaryStage.setResizable(true);
         primaryStage.show();
+        
     }
 }
